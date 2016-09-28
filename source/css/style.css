@@ -1,3 +1,10 @@
 /*
  * YOUR STYLES HERE
  */
+
+@import 'no-react.css';
+
+body {
+  background: white;
+  color: #323a45;
+}
