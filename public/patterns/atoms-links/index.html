@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html class="">
+  <head>
+    <title>Nullizzle shizznit velizzle, hizzle, suscipit own yo&#39;, gravida vizzle, arcu.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="../../css/style.css?1475535686142" media="all" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1475535686142" media="all" />
+
+    <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+    <!-- never cache patterns -->
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+
+<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1475535686142" media="all">
+<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1475535686142" media="all" />
+
+    <!-- End Pattern Lab -->
+
+  </head>
+  <body class="">
+<!-- View All Patterns in a Pattern Sub-Type -->
+<div class="sg-main" role="main">
+  
+  <!-- Patterns -->
+  <div id="sg-patterns">
+<div id="viewall-atoms-links" class="sg-pattern-category">
+  <h2 class="sg-pattern-category-title"><a href="../../patterns/atoms-links&#x2F;index.html" class="patternLink" data-patternpartial="viewall-atoms-links">links</a></h2>
+
+  <div class="sg-pattern-category-body">
+    
+  </div><!--end sg-pattern-category-body-->
+  
+</div><!--end sg-pattern-category-->
+<div id="atoms-01_external" class="sg-pattern">
+  <div class="sg-pattern-head">
+    <h3 class="sg-pattern-title">
+      <a href="../../patterns/atoms-links-01_external&#x2F;atoms-links-01_external.html" class="patternLink" data-patternpartial="atoms-01_external" title="Link to Pattern">
+          01_external
+      </a>
+    </h3>
+    <div class="sg-pattern-breadcrumb"></div>
+    <a href="#" data-patternpartial="atoms-01_external" title="View Pattern Info" id="sg-pattern-extra-toggle-atoms-01_external" class="sg-pattern-extra-toggle"><span>&#9660;</span></a>
+  </div>
+  <div class="sg-pattern-extra" id="sg-pattern-extra-atoms-01_external">
+    
+  </div>
+  <div class="sg-pattern-example">
+    <a href="http://www.va.gov/vso/">External link</a>
+
+  </div>
+  <script type="text/json" id="sg-pattern-data-atoms-01_external" class="sg-pattern-data">
+    {"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<p>the css selector for external urls is <code>[href^=http]</code></p>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"links"},"patternExtension":"mustache","patternName":"01_external","patternPartial":"atoms-01_external","patternState":"","patternEngineName":"mustache","extraOutput":{}}
+  </script>
+</div><!--end .sg-pattern-->
+<div id="atoms-02_internal" class="sg-pattern">
+  <div class="sg-pattern-head">
+    <h3 class="sg-pattern-title">
+      <a href="../../patterns/atoms-links-02_internal&#x2F;atoms-links-02_internal.html" class="patternLink" data-patternpartial="atoms-02_internal" title="Link to Pattern">
+          02_internal
+      </a>
+    </h3>
+    <div class="sg-pattern-breadcrumb"></div>
+    <a href="#" data-patternpartial="atoms-02_internal" title="View Pattern Info" id="sg-pattern-extra-toggle-atoms-02_internal" class="sg-pattern-extra-toggle"><span>&#9660;</span></a>
+  </div>
+  <div class="sg-pattern-extra" id="sg-pattern-extra-atoms-02_internal">
+    
+  </div>
+  <div class="sg-pattern-example">
+    <a href="#">Internal Link</a>
+
+  </div>
+  <script type="text/json" id="sg-pattern-data-atoms-02_internal" class="sg-pattern-data">
+    {"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":true,"patternLineagesR":[{"lineagePattern":"molecules-11_breadcrumbs","lineagePath":"../../patterns/molecules-00_global-11_breadcrumbs/molecules-00_global-11_breadcrumbs.html"}],"lineageR":[{"lineagePattern":"molecules-11_breadcrumbs","lineagePath":"../../patterns/molecules-00_global-11_breadcrumbs/molecules-00_global-11_breadcrumbs.html"}],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"links"},"patternExtension":"mustache","patternName":"02_internal","patternPartial":"atoms-02_internal","patternState":"","patternEngineName":"mustache","extraOutput":{}}
+  </script>
+</div><!--end .sg-pattern-->
+  </div> <!--end #sg-patterns-->
+
+</div><!--end .sg-main-->
+
+  <!--DO NOT REMOVE-->
+  <script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">
+  {"patternPartial":"viewall-atoms-links"}
+</script>
+
+<script>
+  /*!
+   * scriptLoader - v0.1
+   *
+   * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+   * Licensed under the MIT license
+   *
+   */
+  
+  var scriptLoader = {
+    
+    run: function(js,cb,target) {
+      var s  = document.getElementById(target+'-'+cb);
+      for (var i = 0; i < js.length; i++) {
+        var src = (typeof js[i] != 'string') ? js[i].src : js[i];
+        var c   = document.createElement('script');
+        c.src   = '../../'+src+'?'+cb;
+        if (typeof js[i] != 'string') {
+          if (js[i].dep !== undefined) {
+            c.onload = function(dep,cb,target) {
+              return function() {
+                scriptLoader.run(dep,cb,target);
+              }
+            }(js[i].dep,cb,target);
+          }
+        }
+        s.parentNode.insertBefore(c,s);
+      }
+    }
+    
+  }
+</script>
+
+<script id="pl-js-polyfill-insert-1475535686142">
+  (function() {
+    if (self != top) {
+      var cb = '1475535686142';
+      var js = [];
+      if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
+        js.push('styleguide/bower_components/classList.min.js');
+      }
+      scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+    }
+  })();
+</script>
+
+<script id="pl-js-insert-1475535686142">
+  (function() {
+    if (self != top) {
+      var cb = '1475535686142';
+      var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
+      scriptLoader.run(js,cb,'pl-js-insert');
+    }
+  })();
+</script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="../../js/scripts.js?1475535686142"></script>
+  </body>
+</html>

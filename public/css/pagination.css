@@ -1,0 +1,81 @@
+.va-pagination {
+  border-top: 1px solid #f1f1f1;
+  font-size: .9em;
+  overflow: hidden;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.va-pagination a {
+  line-height: 2;
+  text-decoration: none;
+}
+.va-pagination-prev, .va-pagination-next {
+  padding: 0 1rem;
+}
+.va-pagination-prev:hover, .va-pagination-prev:focus, .va-pagination-next:hover, .va-pagination-next:focus {
+  text-decoration: underline;
+}
+.va-pagination-prev, .va-pagination-next, .va-pagination-inner {
+  display: inline-block;
+}
+.va-pagination-inner {
+  line-height: 1.5;
+  max-width: 66%;
+  white-space: nowrap;
+}
+@media (max-width: 481px) {
+  @supports (display: flex) {
+    .va-pagination-inner {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+  }
+}
+@media (min-width: 1201px) {
+  .va-pagination-inner {
+    margin: 0 1rem;
+    max-width: 85%;
+  }
+}
+.va-pagination-prev::before {
+  content: '\003c\a0\a0';
+}
+.va-pagination-next::after {
+  content: '\a0\a0\003e';
+}
+@media (max-width: 481px) {
+  @supports (display: flex) {
+    .va-pagination {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+  }
+}
+
+.va-pagination-inner a {
+  border-radius: 1000px;
+  display: inline-block;
+  height: 3rem;
+  margin: 0 .25rem;
+  min-width: 3rem;
+  text-decoration: none;
+}
+@media (max-width: 481px) {
+  .va-pagination-inner a {
+    flex: 0 0 3rem;
+  }
+}
+
+.va-pagination-inner a:hover,
+.va-pagination-inner a:focus,
+.va-pagination-active,
+.va-pagination-active:visited {
+  background: #0071bc;
+  color: white;
+}
