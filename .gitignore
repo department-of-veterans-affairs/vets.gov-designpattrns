@@ -38,6 +38,7 @@ jspm_packages
 
 public
 .DS_Store
+patternlab.json
 .sass-cache/*
 Thumbs.db
 .idea/
