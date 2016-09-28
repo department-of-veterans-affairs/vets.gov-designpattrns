@@ -41,3 +41,4 @@ patternlab.json
 .sass-cache/*
 Thumbs.db
 .idea/
+public/
