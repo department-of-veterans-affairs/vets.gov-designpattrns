@@ -3,6 +3,7 @@
  */
 
 @import 'no-react.css';
+@import 'pagination.css';
 
 body {
   background: white;
