@@ -30,3 +30,35 @@ div.header {
   background-size: contain;
   color: #fff;
 }
+
+/* HCA styles */
+.hca-process li.section-complete:before {
+  background: #2e8540;
+  content: "\2714";
+}
+
+.hca-process li.section-current h5 {
+  font-weight: 700;
+  color: #0071bc;
+}
+
+.hca-process li.section-current:before {
+  background: #0071bc;
+}
+
+.hca-process li.section-current li.sub-section-current {
+  font-weight: 700;
+  color: #0071bc;
+}
+
+.hca-process li li {
+  display: none;
+}
+
+.hca-process li.section-current li {
+  display: list-item;
+}
+
+h4, h5, legend {
+  font-weight: 400;
+}
