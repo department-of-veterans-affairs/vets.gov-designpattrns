@@ -20,3 +20,13 @@ label {
   list-style-type: none;
   padding-left: 0;
 }
+
+.va-notice--banner {
+  color: white;
+}
+
+div.header {
+  background: #112e51 url(/images/thread.png) 0 0 no-repeat;
+  background-size: contain;
+  color: #fff;
+}
