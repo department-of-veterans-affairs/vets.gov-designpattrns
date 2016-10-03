@@ -9,3 +9,7 @@ body {
   background: white;
   color: #323a45;
 }
+
+label {
+  margin-top: 0;
+}
