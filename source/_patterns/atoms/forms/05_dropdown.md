@@ -1,0 +1,1 @@
+- Use radio buttons instead of dropdowns whenever there are 5 or less options to choose from
