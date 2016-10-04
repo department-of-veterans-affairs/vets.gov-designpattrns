@@ -12,6 +12,12 @@ Vets.gov Pattern library.
 Run `grunt patternlab:serve` from the root of this repo
 
 
+#### Deploying to Github pages
+- Run `grunt patternlab:build`
+- Run the bash script `deploy-to-github.sh`
+- visit the built PatternLab site at https://department-of-veterans-affairs.github.io/vets.gov-patterns/
+
+-----
 
 #### Pattern Lab
 
