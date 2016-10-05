@@ -1,26 +1,3 @@
-# vets.gov-patterns
-Vets.gov Pattern library.
-
-
-#### Hierarchy
-- `atoms`: basic building blocks, i.e. HTML tags
-- `molecules`: groups of elements, i.e. input form,
-- `organisms`: groups of components forming a relatively complex, distinct section of an interface, i.e. a Nav section
-- `templates`: pages formed by putting together blocks
-
-#### Developing locally
-Run `grunt patternlab:serve` from the root of this repo
-
-
-#### Deploying to Github pages
-- Run `grunt patternlab:build`
-- Run the bash script `deploy-to-github.sh`
-- visit the built PatternLab site at https://department-of-veterans-affairs.github.io/vets.gov-patterns/
-
------
-
-#### Pattern Lab
-
 # Pattern Lab Node - Grunt Edition
 
 The Grunt wrapper around [Pattern Lab Node Core](https://github.com/pattern-lab/patternlab-node), providing tasks to interact with the core library and move supporting frontend assets.
