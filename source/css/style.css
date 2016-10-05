@@ -9,3 +9,56 @@ body {
   background: white;
   color: #323a45;
 }
+
+label {
+  margin-top: 0;
+}
+
+.usa-unstyled-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.va-notice--banner {
+  color: white;
+}
+
+div.header {
+  background: #112e51 url(/images/thread.png) 0 0 no-repeat;
+  background-size: contain;
+  color: #fff;
+}
+
+/* HCA styles */
+.hca-process li.section-complete:before {
+  background: #2e8540;
+  content: "\2714";
+}
+
+.hca-process li.section-current h5 {
+  font-weight: 700;
+  color: #0071bc;
+}
+
+.hca-process li.section-current:before {
+  background: #0071bc;
+}
+
+.hca-process li.section-current li.sub-section-current {
+  font-weight: 700;
+  color: #0071bc;
+}
+
+.hca-process li li {
+  display: none;
+}
+
+.hca-process li.section-current li {
+  display: list-item;
+}
+
+h4, h5, legend {
+  font-weight: 400;
+}

@@ -1,0 +1,4 @@
+- Completed sections have a green check mark
+- Subitems in completed sections are hidden
+- Current section title is bolded and blue
+- Current subitem in current section is bolded and blue
