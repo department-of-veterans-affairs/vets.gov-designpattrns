@@ -36,8 +36,8 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
+public
 .DS_Store
 .sass-cache/*
 Thumbs.db
 .idea/
-public/
