@@ -20,7 +20,7 @@
       "annotations" : "./public/annotations/",
       "styleguide" : "./public/styleguide/",
       "js" : "./public/js",
-      "images" : "./public/images",
+      "images" : "./public/styleguide/images",
       "fonts" : "./public/fonts",
       "css" : "./public/css"
     }
