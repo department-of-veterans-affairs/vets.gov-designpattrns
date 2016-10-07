@@ -15,7 +15,7 @@
     },
     "public" : {
       "root" : "./public/",
-      "patterns" : "./public/patterns/",
+      "patterns" : "./public/",
       "data" : "./public/styleguide/data/",
       "annotations" : "./public/annotations/",
       "styleguide" : "./public/styleguide/",
