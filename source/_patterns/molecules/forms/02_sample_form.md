@@ -1,2 +1,0 @@
-- Only display errors after a user has selected a submit button, not as they're entering information
-- Use radio buttons instead of dropdowns whenever there are 5 or less options to choose from
