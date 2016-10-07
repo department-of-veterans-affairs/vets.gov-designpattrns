@@ -62,7 +62,7 @@
   },
   "patternExportPatternPartials": [],
   "patternExportDirectory": "./pattern_exports/",
-  "baseurl" : "https://department-of-veterans-affairs.github.io/vets.gov-patterns",
+  "baseurl" : "",
   "cacheBust": true,
   "starterkitSubDir": "dist",
   "outputFileSuffixes": {
