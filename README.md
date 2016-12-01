@@ -17,7 +17,7 @@ Vets.gov Pattern library.
 - Run `grunt`
 - Add all changes and commit
 - run `git subtree push --prefix public origin gh-pages`
-- visit the built PatternLab site at https://department-of-veterans-affairs.github.io/vets.gov-patterns/
+- visit the built PatternLab site at https://department-of-veterans-affairs.github.io/vets.gov-designpattrns/
 
 
 #### Pattern Lab
