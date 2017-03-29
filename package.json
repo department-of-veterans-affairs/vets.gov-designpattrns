@@ -1,0 +1,22 @@
+{
+  "name": "fractal",
+  "version": "1.0.0",
+  "description": "Vets.gov pattern library on Fractal, v1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/department-of-veterans-affairs/vets.gov-designpattrns.git"
+  },
+  "author": "@phiden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/department-of-veterans-affairs/vets.gov-designpattrns/issues"
+  },
+  "homepage": "https://github.com/department-of-veterans-affairs/vets.gov-designpattrns#readme",
+  "dependencies": {
+    "@frctl/fractal": "^1.1.3"
+  }
+}
