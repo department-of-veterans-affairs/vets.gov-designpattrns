@@ -1,0 +1,22 @@
+<div class="fr-color-box-group">
+  
+  {{#each family}}
+  
+    <h1>{{ name }}</h1>
+    
+    {{#each color}}
+  
+      <h2>{{ name }}</h2>
+      <div class="">
+        <div class="fr-color-box__color"></div>
+        <div class="fr-color-box__context">
+          <p class="fr-color-box__color-name">{{ name }}</p>
+          <p class="fr-color-box__color-code">{{ hex }}</p>
+          <p>Contrast rating: {{ contrast }}
+        </div>
+      </div>
+      
+      {{/each}}
+      
+  {{/each}}
+</div>
