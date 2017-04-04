@@ -42,3 +42,4 @@ patternlab.json
 .sass-cache/*
 Thumbs.db
 .idea/
+vets.gov/.sass-cache/*
