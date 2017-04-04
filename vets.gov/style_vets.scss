@@ -1,0 +1,41 @@
+//colors
+
+@import 'components/basics/01-colors/colors';
+@import 'components/basics/01-colors/fractal_colors';
+
+
+
+body,
+html {
+  
+  font-family:Arial, sans-serif;
+  
+}
+// specific to Fractal
+
+.Header {
+  
+  background-color: #003E73;
+}
+
+.fr-color-family {
+  
+  width:23%;
+  margin-right:1em;
+  float:left;
+  height:auto;
+  overflow: auto;
+  
+  .fr-color {
+    
+    color:white;
+    padding:5px 10px;
+    
+  }
+  
+}
+
+
+
+// 
+
