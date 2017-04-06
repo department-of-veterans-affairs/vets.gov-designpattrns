@@ -1,0 +1,20 @@
+<div class='colors'>
+
+  {{#family}}
+  
+  <div class='pl-color-family'>
+    <h1>{{ name }}</h1>
+    
+    {{#color}}
+    
+      <div class="pl-color {{ var }}">
+        <p>{{ name }}: {{ hex }}</h2>
+        <p>Contrast rating: {{ contrast }}</p>
+      </div>
+    
+    {{/color}}  
+  
+  </div>
+  {{/family}}
+  
+</div>
