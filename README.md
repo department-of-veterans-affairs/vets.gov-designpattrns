@@ -7,8 +7,8 @@ It's an exploration of Fractal and Pattern Lab as tools for a design system for 
 
 To see either or both of these, clone the Fractal branch of this repo, `cd` into the appropriate directory, and then follow directions for getting started:
 
-[Fractal](http://fractal.build/guide/installation)
-[Pattern Lab](http://patternlab.io/docs/requirements.html#node)
+* [Fractal](http://fractal.build/guide/installation)
+* [Pattern Lab](http://patternlab.io/docs/requirements.html#node)
 
 You can run both simultaneously. Please be advised -- these are v. incomplete proofs of concept. Ping @phiden if you want the rundown.
 
