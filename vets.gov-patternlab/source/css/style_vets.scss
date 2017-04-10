@@ -1,20 +1,110 @@
+@charset 'UTF-8';
 @import "variables";
 
-//specific to pattern lab
+// uswds
+
+@import "../../node_modules/uswds/src/stylesheets/lib/normalize";
+
+// ---- U.S. WEB DESIGN STANDARDS SETTINGS --- //
+
+/*@import "../../node_modules/uswds/src/stylesheets/core/defaults";
+@import "../../node_modules/uswds/src/stylesheets/core/base";
+@import "../../node_modules/uswds/src/stylesheets/core/utilities";
+
+// ---- U.S. WEB DESIGN STANDARDS ELEMENTS/COMPONENTS --- //
+@import "../../node_modules/uswds/src/stylesheets/elements/buttons";
+@import "../../node_modules/uswds/src/stylesheets/elements/inputs";
+@import "../../node_modules/uswds/src/stylesheets/elements/labels";
+@import "../../node_modules/uswds/src/stylesheets/elements/table";
+
+@import "../../node_modules/uswds/src/stylesheets/components/accordions";
+@import "../../node_modules/uswds/src/stylesheets/components/alerts";
+@import "../../node_modules/uswds/src/stylesheets/components/forms";
+@import "../../node_modules/uswds/src/stylesheets/components/sidenav";
+*/
+
+@import "uswds.min.css";
+
+@import "variables";
+@import "lists";
+@import "text_styles";
+
 @import "pl_font_family";
 @import "pl_text_styles";
 @import "pl_colors";
 
-@import "lists";
+@import "_va";
 
-html,
-body {
+header,
+footer {
   
-  font-size: $base-font-size;
-  font-family: $font-sans;
+  background-color: $color-primary-darkest;
+  color:white;
 }
 
-header {
+.container {
   
-  background-color: $color-primary;
+  width:90%;
+  margin:0 auto;
+  padding-top:30px;
+}
+
+.card-container {
+  
+  width:80%;
+  margin:0 auto;
+  clear:both;
+  height:auto;
+  overflow: auto;
+  
+  ul {
+    
+    width:100%;
+    height:auto;
+    overflow:auto;
+    padding:0;
+    margin:0 auto;
+  }
+}
+@media screen and (min-width: 600px){
+  
+  
+  .va-cards--2across>.va-card {
+    width: 50%;
+    
+  }
+  
+  .va-card {
+      float: left;
+  }
+}
+
+
+.va-card {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0 .625rem 1.25rem .67rem;
+    list-style: none!important;
+    position: relative;
+    padding: 0;
+    width:50%;
+}
+
+.va-card-body, .va-card a {
+    transition: all .3s ease-in-out;
+    background: #003e73;
+    border-radius: .2em;
+    color: #fff!important;
+    display: block;
+    font-weight: 400;
+    height: 11em;
+    padding: .45em .75em;
+    text-align: left;
+    text-decoration: none;
+    padding: 1.25em;
+    
+    h3 {
+      
+      color:white;
+    }
 }

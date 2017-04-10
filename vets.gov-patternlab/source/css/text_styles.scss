@@ -1,0 +1,112 @@
+// Headings
+
+h1 {
+  
+  font-family: $font-sans;
+}
+
+h2, h3, h4, h5, h6 {
+  
+  font-family: $font-sans;
+  margin: 0;
+  padding: 0 0 .5em 0;
+}
+
+
+h1:first-child {
+  margin-top: 0;
+}
+
+h3, h4, h5, h6 {
+  color: $color-primary-darkest;
+}
+
+h1 {
+  
+  font-weight: 700;
+  font-size: 2em;
+  font-size: 32px;
+  line-height: 1.3em;
+  line-height: 42px;
+  color: $color-gray-dark;
+}
+
+h2 {
+  
+  font-weight: 700;
+  font-size: 1.75em;
+  font-size: 28px;
+  line-height: 1.3em;
+  line-height: 36px;
+  color: $color-gray-dark;
+}
+
+h3 {
+  
+  font-weight: 700;
+  font-size: 1.5em;
+  font-size: 24px;
+  line-height: 1.3em;
+  line-height: 31px;
+  color: $color-gray-dark;
+
+  
+}
+
+h4 {
+  
+  font-weight: 700;
+  font-size: 1.25em;
+  font-size:20px;
+  line-height: 1.3em;
+  line-height:26px;
+  color: $color-gray-dark;
+  
+}
+
+h5 {
+  
+  font-weight: 700;
+  font-size: 1.1em;
+  font-size: 17.6px;
+  line-height: 1.3em;
+  line-height: 23px;
+  color: $color-gray-dark;
+  
+}
+
+h6 {
+  
+  font-weight: 700;
+  font-size: 14.4px;
+  font-size: 0.9em;
+  line-height: 1.3em;
+  line-height: 19px;
+  color: $color-gray-dark;
+  
+}
+
+a {
+  
+  color:$color-link-default;
+}
+
+p {
+  
+  color: #323a45;
+}
+
+.va-introtext {
+  
+  color: #003e73;
+  letter-spacing: normal;
+  font-size: 1.25em;
+  
+}
+
+html,
+body {
+  
+  font-size: $base-font-size;
+  font-family: $font-sans;
+}
