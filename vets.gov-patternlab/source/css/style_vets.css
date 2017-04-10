@@ -2091,4 +2091,10 @@ footer {
   .va-card-body h3, .va-card a h3 {
     color: white; }
 
+footer {
+  height: auto;
+  overflow: auto;
+  margin: 0;
+  padding: 20px; }
+
 /*# sourceMappingURL=style_vets.css.map */
