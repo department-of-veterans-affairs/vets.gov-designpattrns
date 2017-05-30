@@ -1,17 +1,16 @@
-https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library/Meeting%20Notes/20170322-notes.md
-
 ## Choosing a design system for Vets.gov
 
 ### Goals
-    #### Where are we now?
+
+#### Where are we now?
     
-      We've tried to develop design systems for Vets.gov in the past [see the existing pattern library](), but due to a how fast we move and what resources we have, those systems tend to quickly fall out of date. Our existing Pattern Lab instance hasn't been updated in six months, rendering it all but useless to our designers and developers. The existing system also doesn't provide context about what constitutes an appropriate use for any given pattern, which makes it difficult for new design and content team members to ramp up. 
+      We've tried to develop design systems for Vets.gov in the past [see the existing Pattern Lab pattern library](), but due to a how fast we move and what resources we have, those systems tend to quickly fall out of date. Our existing Pattern Lab instance hasn't been updated in six months or longer, rendering it all but useless to our designers and developers. The existing system also doesn't provide context about what constitutes an appropriate use for any given pattern, which makes it difficult for new design and content team members to ramp up quickly. 
       
-      We also have an existing [Sketch file](), which is as close to a single source of truth as we can get. Even with Mel's invaluable work keeping it up to date, the file is incomplete: it doesn't contain every UI pattern existing on Vets.gov, and it also doesn't provide usage or deprecation (piano keys!) context. 
+      We also have a second [pattern library repository](https://github.com/department-of-veterans-affairs/vets.gov-team/tree/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library), which is as close to a single source of truth as we can get. This pattern library is a compilation of files and documentation, including a master [Sketch file](https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library/vets-gov-pattern-library.sketch) that contains color palettes and design patterns. These files, while contained in the same repository, must be updated individually when design patterns change. The repo also provides limited context 
       
       Vets.gov, at the time of this writing, comprises at least three separate systems/apps: the core of Vets.gov, GI Bill, and the Veterans' Employment Center (VEC). GI Bill and VEC are both Rails apps that pull at least some of their UI components from the [va-common gem](), which is now out of date. The end result is that there are UI/UX inconsistencies on Vets.gov. The assumption is also that due to multiple designers and developers working across projects, that we necessarily compound inconsistencies that arise when there's not a single, up-to-date code or design base. 
         
-    #### Where do we want to be?
+#### Where do we want to be?
     
     There are some potential problems that we're trying to get ahead of:
     1. How much time are we spending catching inconsistencies, both in design and implementation?
@@ -56,11 +55,11 @@ https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work
     
     Caseflow's design system is implemented differently from how we would ideally implement a Vets.gov system, but their processes for getting started and maintaining the system have some good lessons for Vets.gov. 
     
-    #### Getting started with Caseflow
+#### Getting started with Caseflow
     The Caseflow team rolled their own platform, building a system in Rails that is custom-tailored to their needs. The team dedicated a sprint to determining their needs, spinning the technology up, and seeding it with basic design patterns in use on Caseflow. The dedicated cycle meant that the design system had a very solid start, but because it's meant to be a living system, it by no means meant that the system was _finished._
     
-    #### Maintenance
-    The Caseflow team is a on a two-week sprint cycle. Each sprint, maintaining and adding to the design system is given some level of priority. Any team member who has cycles is encouraged to add to the system, either by maintaining existing patterns or by documenting new ones. If, during the 
+#### Maintenance
+    The Caseflow team is a on a two-week sprint cycle. Each sprint, maintaining and adding to the design system is given some level of priority. Any team member who has cycles is encouraged to add to the system, either by maintaining existing patterns or by documenting new ones. If during the sprint, new design patterns are created, it falls to the creator to document the new pattern on their system. 
         
     3. We need to pick a tool; I recommend Fractal
         1. Option: Fractal
