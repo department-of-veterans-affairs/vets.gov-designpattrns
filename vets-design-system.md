@@ -31,7 +31,7 @@ A design system, as opposed to a static or even a living style guide, changes th
 
 The use of a design system, instead of a style guide, does require a shift in workflow and work culture. The system must be prioritized equally with all other products, as opposed to a "nice to have" or a post-production product. It needs to be given room in every sprint in order to stay up-to-date. 
  
-2. Stakeholders and their respective needs
+### Stakeholders and their respective needs
 
 So who uses this system? We've identified three major user groups, each with slightly different needs. 
 
@@ -49,7 +49,7 @@ A current challenge is that our Vets.gov content team isn't entirely familiar wi
 
 A potential fourth user group, should the system be open-sourced, is anyone else who wants to work off of Vets.gov visual and code standards. They would find our entire design system and its implementations documented in a single location.
 
-3. Caseflow as a success story
+### Caseflow as a success story
 
 There is another team within DSVA that is working from a centralized design system, though not quite in the same manner as we're proposing here. The Appeals team, led by Gina and Mariana (SP?), have rolled their own design system to use with Caseflow. [link here] 
 
@@ -59,30 +59,42 @@ Caseflow's design system is implemented differently from how we would ideally im
 The Caseflow team rolled their own platform, building a system in Rails that is custom-tailored to their needs. The team dedicated a sprint to determining their needs, spinning the technology up, and seeding it with basic design patterns in use on Caseflow. The dedicated cycle meant that the design system had a very solid start, but because it's meant to be a living system, it by no means meant that the system was _finished._
     
 #### Maintenance
-The Caseflow team is a on a two-week sprint cycle. Each sprint, maintaining and adding to the design system is given some level of priority. Any team member who has cycles is encouraged to add to the system, either by maintaining existing patterns or by documenting new ones. If during the sprint, new design patterns are created, it falls to the creator to document the new pattern on their system. 
+The Caseflow team is a on a two-week sprint cycle. Each sprint, maintaining and adding to the design system is given some level of priority. Any team member who has cycles is encouraged to add to the system, either by maintaining existing patterns or by documenting new ones. If during the sprint, new design patterns are created, it falls to the creator to document the new pattern on their system.
+
+
+[[ distributed team maintenance, as opposed to a single point of failure ]]
+ 
+### Choosing a tool for the Vets.gov design system
+
+There are a few possible chocies we could make for a Vets.gov design system, including rolling our own. However, there are two standouts in the broader atomic design world -- Fractal and Pattern Lab -- both of which could conceivably serve our purpose. 
+
+  1. Option: Fractal
+  2. Option: Pattern Lab
+  
+#### What do both systems do well?
+
+  1. Both run on node
+  2. Both adhere to the concept of atomic design
+  3. Both are, ultimately, static-site-generators
+  4. Both allow for updating that propagates across the system
+  
+#### Where do they diverge? 
+
+  1. Fractal
+    1. Doesn’t include ‘ish’, a neat little tool for seeing screens across device sizes that is built into Pattern Lab. However, ish can be accessed independently of Pattern Lab.
+    2. Doesn’t use atomic design vocabulary (though can likely be configured to do so?)
+    3. Exposes CSS, html, hbs, notes
+    4. File system keeps related files in a single directory
+    5. Has an existing API that exposes your design system’s components. It is very likely that Vets.gov could consume this API directly, meaning that the design system would be the only place we'd have to code components. This further means that any updates to the code on Fractal would propagate to Vets.gov automatically, as opposed to having to be brought in by hand.
         
-    3. We need to pick a tool; I recommend Fractal
-        1. Option: Fractal
-        2. Option: Pattern Lab
-2. What do both systems do well?
-    1. Both run on node
-    2. Both adhere to the concept of atomic design
-    3. Both are, ultimately, static-site-generators
-    4. Both allow for updating that propagates across the system
-3. Where do they diverge? 
-    1. Fractal
-        1. doesn’t include ‘ish’
-        2. doesn’t use atomic design vocabulary (though can likely be configured to do so?)
-        3. exposes CSS, html, hbs, notes
-        4. file system keeps related files in a single directory
-        5. Has an existing API that exposes your design system’s components 
-    2. Pattern Lab
-        1. Includes 'ish'
-        2. Institutional knowledge in the form of Robbie
-        3. Does not expose css or notes by default
-        4. No existing API — but has a stronger open source community than Fractal
-        5. Allows for documentation of each component as well as annotation (I’m still not clear on the difference)
-4. Open questions
+  2. Pattern Lab
+    1. Includes 'ish' out of the box. Useful, but not core functionality, particularly given that ish can be accessed independently.
+    2. Institutional knowledge in the form of Robbie
+    3. Does not expose css or notes by default
+    4. No existing API — but has a stronger open source community than Fractal
+    5. Allows for documentation of each component as well as annotation (I’m still not clear on the difference)
+
+### Open questions
     1. Of our stakeholder groups, should one or another take precedence? (i.e., is it going to be substantially harder for developers to work with one system over another, and should that take precedence over one system or another for content)
     2. We need to confirm that either of these systems is capable of being the core codebase _in practice_, because they both are in theory
     3. Do we have the institutional will to change workflows?
