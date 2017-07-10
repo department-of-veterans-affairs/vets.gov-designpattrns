@@ -1,9 +1,8 @@
 //colors
-
+@import 'node_modules/uswds/src/stylesheets/uswds.scss';
+@import 'sass/style.scss';
 @import 'components/basics/01-colors/colors';
 @import 'components/basics/01-colors/fractal_colors';
-
-
 
 body,
 html {
