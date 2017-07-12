@@ -19,11 +19,11 @@ There are some potential problems that we're trying to get ahead of:
     
 The longest-term goal is a design system that adheres to the principles of atomic design and serves all user groups (detailed below) evenly. Ideally, the system would also act as a single source of truth for design, and for the Vets.gov front-end codebase, if it doesn't outright become the codebase via an API that Vets.gov can plug in to.
     
-*On atomic design* 
+**On atomic design**
 
 Atomic design refers to the idea, perpetuated by Brad Frost, of a design system comprised of smaller components (atoms) that successively build into larger molecules, organisms, templates, and pages. Read more about it [here](http://bradfrost.com/blog/post/atomic-web-design/). Extended to a design system, a change to an atom would perpetuate upward into the larger component groups so that for example you only have to change a button in _one_ place for that to be reflected throughout every piece of design or code that uses that button.
 
-*On a design system (as opposed to a style guide)*
+**On a design system (as opposed to a style guide)**
 
 Traditionally, most teams will follow a process that looks like this [include graphic from Frost's book]. It's a relatively linear process from design to development and eventually a styleguide, which is usually the first thing that falls to the bottom of the priority list when push comes to shove. Designing for and modifying production products almost inevitably takes precedence over maintaining a style guide. The end result is usually a document that is out of date almost as soon as it's complete, and is not useful to to designers or developers as design canon.
 
@@ -66,47 +66,37 @@ The Caseflow team is a on a two-week sprint cycle. Each sprint, maintaining and 
  
 ### Choosing a tool for the Vets.gov design system
 
-There are a few possible chocies we could make for a Vets.gov design system, including rolling our own. However, there are two standouts in the broader atomic design world -- Fractal and Pattern Lab -- both of which could conceivably serve our purpose. 
+There are a few possible choices we could make for a Vets.gov design system, including rolling our own. However, there are two standouts in the broader atomic design world -- Fractal and Pattern Lab -- both of which could conceivably serve our purpose. 
 
-  1. Option: Fractal
-  2. Option: Pattern Lab
-  
-#### What do both systems do well?
+Both systems do a number of things similarly, and there are pros and cons to either one. Our recommendation, however, is to use Fractal. When we first started looking at design systems, there was still an open argument as to which system would better suit Vets.gov needs -- but in the few months since, 18F [https://standards.usa.gov/whats-new/updates/2017/04/26/fractal-federalist/](has begun using Fractal) for the US Web Design Standards own pattern library. Since Vets.gov's style is based on the USWDS, their use of Fractal is a powerful argument for our own use of the same system.
 
-  1. Both run on node
-  2. Both adhere to the concept of atomic design
-  3. Both are, ultimately, static-site-generators
-  4. Both allow for updating that propagates across the system
-  
-#### Where do they diverge? 
+Fractal has other features that make it a compelling tool for Vets.gov:
 
-  1. Fractal
-    1. Doesn’t include ‘ish’, a neat little tool for seeing screens across device sizes that is built into Pattern Lab. However, ish can be accessed independently of Pattern Lab.
-    2. Doesn’t use atomic design vocabulary (though can likely be configured to do so?)
-    3. Exposes CSS, html, hbs, notes
-    4. File system keeps related files in a single directory
-    5. Has an existing API that exposes your design system’s components. It is very likely that Vets.gov could consume this API directly, meaning that the design system would be the only place we'd have to code components. This further means that any updates to the code on Fractal would propagate to Vets.gov automatically, as opposed to having to be brought in by hand.
-        
-  2. Pattern Lab
-    1. Includes 'ish' out of the box. Useful, but not core functionality, particularly given that ish can be accessed independently.
-    2. Institutional knowledge in the form of Robbie
-    3. Does not expose css or notes by default
-    4. No existing API — but has a stronger open source community than Fractal
-    5. Allows for documentation of each component as well as annotation (I’m still not clear on the difference)
+1. Adheres to the concepts of Atomic Design, though the terminology differs.
+2. Has the potential to be a "live" system, in that a change to our Fractal could then propagate to staging and production automatically. This will require a little finagling with our development team, but Fractal has an existing API that exposes your design system’s components. It is very likely that Vets.gov could consume this API directly, meaning that the design system would be the only place we'd have to code components.
+3. Exposes CSS, html, hbs, notes
+4. From an organization standpoint, has an intuitive file system that keeps related files in a single directory. 
+     
 
 ### Open questions
-    1. Of our stakeholder groups, should one or another take precedence? (i.e., is it going to be substantially harder for developers to work with one system over another, and should that take precedence over one system or another for content)
-    2. We need to confirm that either of these systems is capable of being the core codebase _in practice_, because they both are in theory
-    3. Do we have the institutional will to change workflows?
-    4. How does this play with the long-game CMS?
-5. Next steps
-    1. Answer those open questions, especially from a dev perspective
-    2. Recommend moving forward with Fractal unless dev can persuade otherwise
-6. Documentation
-    1. On Atomic Design
-    2. Fractal documentation
-    3. Pattern Lab documentation
-    4. Rizzo system (other design systems as APIs)
+
+1. Of our stakeholder groups, should one or another take precedence as we develop our Fractal instance?
+2. Do we have the institutional will to change workflows?
+3. How does this play with the long-game CMS?
+
+### Next steps
+
+1. Answer those open questions, especially from a dev perspective
+2. Come up with a timeline for MVP release, MVP+1, etc., and a schedule for iteration
+3. Assemble the team for the first sprint, and decide how we'll staff maintaining Fractal. Who owns this? 
+
+### Documentation
+
+1. [On Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/)
+2. [Fractal documentation](http://fractal.build/guide)
+3. [Rizzo system](http://ianfeather.co.uk/a-maintainable-style-guide/) - Lonely Planet's design system/API
+4. [USWDS Fractal + Federalist](https://standards.usa.gov/whats-new/updates/2017/04/26/fractal-federalist/)
+5. [Caseflow]()
 
 https://github.com/department-of-veterans-affairs/vets.gov-team/blob/master/Work%20Practices/Design/Design%20Resources/Pattern%20Library/Meeting%20Notes/20170322-notes.md
 
