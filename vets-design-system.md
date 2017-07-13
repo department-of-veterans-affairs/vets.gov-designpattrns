@@ -92,20 +92,21 @@ Fractal has other features that make it a compelling tool for Vets.gov:
 
 #### Sprint 0 - Prototype
 
-Team: 
-**Design:** Sophia
+##### Team: 
+* **Design:** Sophia
 
 * Assess pain levels re: consistency of visuals, code, content
 * Assess design needs, development needs, content needs based on people instead of perception
+* Spin up simple React app to consume API?
 * Deliverable: Complete prototype of our Fractal instance
 * Deliverable: Presentation to stakeholders/leads for guidance, buy-in, feedback 
 
 #### Sprint 1 - Visual MVP
 
-Team: 
-**Design:** Mel and Sophia
-**Content:** Amy 
-**Development:** Robbie and/or ???
+##### Team: 
+* **Design:** Mel and Sophia
+* **Content:** Amy 
+* **Development:** Robbie and/or ???
 
 * Goal: have all major design patterns included visually and with rationale (code complete is Sprint 2)
 * Continue to assess the ability for this system to output an API consumable by Vets.gov
@@ -114,10 +115,10 @@ Team:
 
 #### Sprint 2 - Code/API MVP
 
-Team: 
-**Design:** Mel and Sophia
-**Content:** Amy 
-**Development:** Robbie and/or ???
+##### Team: 
+* **Design:** Mel and Sophia
+* **Content:** Amy 
+* **Development:** Robbie and/or ???
 
 * Goal: baseline API established
 (This is where Sophia's engineering skills hit their wall: has no idea what would be involved here and needs help figuring it out!)
@@ -130,4 +131,5 @@ Team:
 3. [Rizzo system](http://ianfeather.co.uk/a-maintainable-style-guide/) - Lonely Planet's design system/API
 4. [USWDS Fractal + Federalist](https://standards.usa.gov/whats-new/updates/2017/04/26/fractal-federalist/)
 5. [Caseflow](http://dsva-appeals-certification-demo-1715715888.us-gov-west-1.elb.amazonaws.com/styleguide)
+6. [Fractal API](http://fractal.build/api)
 
