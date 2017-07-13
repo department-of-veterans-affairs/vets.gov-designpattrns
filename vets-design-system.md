@@ -138,4 +138,5 @@ Fractal has other features that make it a compelling tool for Vets.gov:
 4. [USWDS Fractal + Federalist](https://standards.usa.gov/whats-new/updates/2017/04/26/fractal-federalist/)
 5. [Caseflow](http://dsva-appeals-certification-demo-1715715888.us-gov-west-1.elb.amazonaws.com/styleguide)
 6. [Fractal API](http://fractal.build/api)
+7. [Fractal API + prod](http://fractal.build/guide/integration/production)
 
