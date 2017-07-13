@@ -86,12 +86,42 @@ Fractal has other features that make it a compelling tool for Vets.gov:
 1. Answer those open questions via conversation with Nebula + Vets.gov leadership
 2. Come up with a timeline for MVP release, MVP+1, etc., and a schedule for iteration
 3. Assemble the team for the first sprint, and decide how we'll staff maintaining Fractal. Who owns this? 
+4. Complete a dedicated discovery and prototype sprint 0 (Sophia)
 
-### Proposed team breakdown for Sprints 1 and 2
+### Timeline
 
+#### Sprint 0 - Prototype
+
+Team: 
+**Design:** Sophia
+
+* Assess pain levels re: consistency of visuals, code, content
+* Assess design needs, development needs, content needs based on people instead of perception
+* Deliverable: Complete prototype of our Fractal instance
+* Deliverable: Presentation to stakeholders/leads for guidance, buy-in, feedback 
+
+#### Sprint 1 - Visual MVP
+
+Team: 
 **Design:** Mel and Sophia
 **Content:** Amy 
-**Development:** Robbie
+**Development:** Robbie and/or ???
+
+* Goal: have all major design patterns included visually and with rationale (code complete is Sprint 2)
+* Continue to assess the ability for this system to output an API consumable by Vets.gov
+* Establish routine check-in meetings with appropriate stakeholders
+* Deliverable: MVP of visual system
+
+#### Sprint 2 - Code/API MVP
+
+Team: 
+**Design:** Mel and Sophia
+**Content:** Amy 
+**Development:** Robbie and/or ???
+
+* Goal: baseline API established
+(This is where Sophia's engineering skills hit their wall: has no idea what would be involved here and needs help figuring it out!)
+
 
 ### Documentation
 
