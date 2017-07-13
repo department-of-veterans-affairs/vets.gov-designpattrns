@@ -95,6 +95,8 @@ Fractal has other features that make it a compelling tool for Vets.gov:
 ##### Team: 
 * **Design:** Sophia
 
+##### Work: 
+
 * Assess pain levels re: consistency of visuals, code, content
 * Assess design needs, development needs, content needs based on people instead of perception
 * Spin up simple React app to consume API?
@@ -108,6 +110,8 @@ Fractal has other features that make it a compelling tool for Vets.gov:
 * **Content:** Amy 
 * **Development:** Robbie and/or ???
 
+##### Work: 
+
 * Goal: have all major design patterns included visually and with rationale (code complete is Sprint 2)
 * Continue to assess the ability for this system to output an API consumable by Vets.gov
 * Establish routine check-in meetings with appropriate stakeholders
@@ -119,6 +123,8 @@ Fractal has other features that make it a compelling tool for Vets.gov:
 * **Design:** Mel and Sophia
 * **Content:** Amy 
 * **Development:** Robbie and/or ???
+
+##### Work: 
 
 * Goal: baseline API established
 (This is where Sophia's engineering skills hit their wall: has no idea what would be involved here and needs help figuring it out!)
