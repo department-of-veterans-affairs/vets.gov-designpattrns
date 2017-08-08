@@ -18,10 +18,26 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
   - Buttons > Secondary (replace with outline)
   - Buttons > Grey
   - Buttons > Outline Inverse
-
 - Incorporate documentation for Foundation grid
-- Match font styles
-- Match color palette (largely the same?)
+- Match styles:
+  - Color palette 
+  - Tables
+  - Buttons
+  - Fonts
+  - Alerts
+  - Accordions
+  - Header
+  - Footer
 - Add components that we _are_ using on Vets that are not on USWDS (what are these?)
+  - Forms
+  - Subway map
+  - Logos
+  - Grey callouts
+  - Blue cards (deprecated?)
+  - Need help? sidebar
+  - Iconography
+  - Next/prev navigation
+  - Header > Get Help
+  
 
 Edit this page's contents at `docs/01-index.hbs`
