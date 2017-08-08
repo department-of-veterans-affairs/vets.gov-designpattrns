@@ -20,7 +20,10 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
   - Buttons > Grey
   - Buttons > Outline Inverse
   - Multi-select accordion? Do we use this anywhere?
+  
+  
 - Incorporate documentation for Foundation grid
+
 - Match styles:
   - Color palette 
   - Tables
@@ -31,6 +34,8 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
   - Header
   - Footer
   - Links
+  
+  
 - Add components that we _are_ using on Vets that are not on USWDS (what are these?)
   - Forms
   - Subway map
@@ -46,5 +51,14 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
   - Log in landing page (prompt to ID.me)
   - Modals
   - Address blocks
+  
+  Fractal only:
+  
+  - Add a 'deprecated' label for certain components
+  
+  ## Long game:
+  
+  - Output React components via API
+  - Tie this to Sketch or Lingo
   
 Edit this page's contents at `docs/01-index.hbs`
