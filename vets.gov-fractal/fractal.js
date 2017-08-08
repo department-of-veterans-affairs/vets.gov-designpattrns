@@ -13,7 +13,7 @@ const context = {
   },
 };
 
-fractal.set('project.title', 'Vets.gov Design Standardss');
+fractal.set('project.title', 'Vets.gov Design Standards');
 
 const components = fractal.components;
 components.set('ext', '.njk');

@@ -6,7 +6,19 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
 
 ## To Do:
 
+- Get the CSS working properly
 - Remove components we're not using on Vets
+  - labels
+  - forms > password reset form
+  - forms > sign in form (this and above handled by id.me)
+  - US Government banner (replace with WIP banner)
+  - Graphic list
+  - Hero
+  - Buttons > Primary Alt (replace with green)
+  - Buttons > Secondary (replace with outline)
+  - Buttons > Grey
+  - Buttons > Outline Inverse
+
 - Incorporate documentation for Foundation grid
 - Match font styles
 - Match color palette (largely the same?)
