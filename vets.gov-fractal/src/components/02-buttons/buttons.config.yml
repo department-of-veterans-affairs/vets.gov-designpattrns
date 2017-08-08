@@ -20,23 +20,11 @@ variants:
       label: Secondary buttons
       classes: 'usa-button-secondary'
 
-  - name: gray
-    context:
-      category: secondary
-      label: Gray buttons
-      classes: 'usa-button-gray'
-
   - name: outline
     context:
       category: secondary
       label: Outline buttons
       classes: 'usa-button-outline'
-
-  - name: outline-inverse
-    context:
-      category: secondary
-      label: Outline inverse buttons
-      classes: 'usa-button-outline-inverse'
 
   - name: focus
     context:

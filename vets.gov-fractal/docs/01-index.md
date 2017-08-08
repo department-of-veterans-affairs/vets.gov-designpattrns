@@ -9,18 +9,14 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
 - ~~Get the CSS working properly~~ **CAVEAT** This was done by bringing in `dist/` -- needs to be more tightly incorporated?
 - Remove components we're not using on Vets
   - Serif font
-  - labels
-  - forms > password reset form
-  - forms > sign in form (this and above handled by id.me)
-  - US Government banner (replace with WIP banner)
-  - Graphic list
-  - Hero
-  - Buttons > Primary Alt (replace with green)
-  - Buttons > Secondary (replace with outline)
-  - Buttons > Grey
-  - Buttons > Outline Inverse
-  - Multi-select accordion? Do we use this anywhere?
-  
+    - Merriweather is removed, but need to reset the section headings
+  - ~~labels~~
+  - ~~forms > password reset form~~
+  - ~~forms > sign in form (this and above handled by id.me)~~
+  - ~~Graphic list~~
+  - ~~Hero~~
+  - ~~Buttons > Grey~~
+  - ~~Buttons > Outline Inverse~~
   
 - Incorporate documentation for Foundation grid
 
@@ -34,6 +30,9 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
   - Header
   - Footer
   - Links
+  - US Government banner (replace with WIP banner)
+  - Buttons > Primary Alt (replace with green)
+  - Buttons > Secondary (replace with outline)
   
   
 - Add components that we _are_ using on Vets that are not on USWDS (what are these?)
@@ -52,6 +51,10 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
   - Modals
   - Address blocks
   
+  Open questions:
+  
+  - Multi-select accordion? Do we use this anywhere?
+    
   Fractal only:
   
   - Add a 'deprecated' label for certain components
