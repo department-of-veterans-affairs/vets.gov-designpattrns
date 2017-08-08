@@ -8,6 +8,7 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
 
 - Get the CSS working properly
 - Remove components we're not using on Vets
+  - Serif font
   - labels
   - forms > password reset form
   - forms > sign in form (this and above handled by id.me)
@@ -18,6 +19,7 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
   - Buttons > Secondary (replace with outline)
   - Buttons > Grey
   - Buttons > Outline Inverse
+  - Multi-select accordion? Do we use this anywhere?
 - Incorporate documentation for Foundation grid
 - Match styles:
   - Color palette 
@@ -28,6 +30,7 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
   - Accordions
   - Header
   - Footer
+  - Links
 - Add components that we _are_ using on Vets that are not on USWDS (what are these?)
   - Forms
   - Subway map
@@ -36,8 +39,12 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
   - Blue cards (deprecated?)
   - Need help? sidebar
   - Iconography
-  - Next/prev navigation
   - Header > Get Help
+  - Homepage template (unsure whether to break this down into smaller components, since so many of them _only_ live on Home)
+  - Navigation > breadcrumbs
+  - Navigation > Next/prev
+  - Log in landing page (prompt to ID.me)
+  - Modals
+  - Address blocks
   
-
 Edit this page's contents at `docs/01-index.hbs`
