@@ -140,3 +140,9 @@ Fractal has other features that make it a compelling tool for Vets.gov:
 6. [Fractal API](http://fractal.build/api)
 7. [Fractal API + prod](http://fractal.build/guide/integration/production)
 
+### Stuff to look into further
+
+1. [Fractal + Sketch](https://vimeo.com/209467146)
+2. [Blog post: set up a design system](https://blog.prototypr.io/design-system-ac88c6740f53)
+
+

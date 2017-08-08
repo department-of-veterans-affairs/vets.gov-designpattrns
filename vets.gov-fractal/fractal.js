@@ -1,59 +1,61 @@
 'use strict';
-
-/*
-* Require the path module
-*/
+const pkg = require('./package.json');
 const path = require('path');
+const fractal = require('@frctl/fractal').create();
 
-/*
- * Require the Fractal module
- */
-const fractal = module.exports = require('@frctl/fractal').create();
+const context = {
+  'package': {
+    name: pkg.name,
+    version: pkg.version,
+  },
+  uswds: {
+    path: '../../dist',
+  },
+};
 
-/*
- * Give your project a title.
- */
-fractal.set('project.title', 'Vets.gov Design System');
+fractal.set('project.title', 'Vets.gov Design Standardss');
 
-/*
- * Tell Fractal where to look for components.
- */
-fractal.components.set('path', path.join(__dirname, 'components'));
-fractal.components.set('default.preview', '@core');
+const components = fractal.components;
+components.set('ext', '.njk');
+components.set('path', 'src/components');
+components.set('default.preview', '@uswds');
+components.set('default.context', context);
 
-/*
- * Tell Fractal where to look for documentation pages.
- */
-fractal.docs.set('path', path.join(__dirname, 'docs'));
+// use Nunjucks as the templating engine
+components.engine(require('@frctl/nunjucks')({
+  filters: {
+    jsonify: d => JSON.stringify(d, null, '  '),
+  },
+  paths: [
+    'src/components',
+  ]
+}));
 
-/*
- * Tell the Fractal web preview plugin where to look for static assets.
- */
-fractal.web.set('static.path', path.join(__dirname, 'public'));
-fractal.web.set('server.sync', true);
+const docs = fractal.docs;
+docs.set('path', 'docs');
 
-/*
- * Meta.
- */
-fractal.set('project.version', 'v1.0');
+const web = fractal.web;
 
-const mandelbrot = require('@frctl/mandelbrot'); // require the Mandelbrot theme module
+web.theme(require('@frctl/mandelbrot')({
+  lang: 'en-US',
+  skin: 'white',
+  // display context data in YAML
+  format: 'yaml',
+  // which panels to show
+  panels: [
+    'html',
+    'notes',
+    'view',
+    'context',
+    'resources',
+    'info',
+  ],
+}));
 
-// create a new instance with custom config options
-const myCustomisedTheme = mandelbrot({
-    skin: "navy",
-    
-      "styles": [
-        "default",
-        "/style_vets.css"
-      ]
-      
-      
-    
-    // any other theme configuration values here
-    
-});
+web.set('static.path', 'dist');
+web.set('static.mount', 'dist');
+// output files to /build
+web.set('builder.dest', 'build');
+web.set('server.sync', true);
 
-
-
-fractal.web.theme(myCustomisedTheme); // tell Fractal to use the configured theme by default
+module.exports = fractal;
