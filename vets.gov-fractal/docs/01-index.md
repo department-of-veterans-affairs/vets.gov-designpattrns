@@ -6,7 +6,7 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
 
 ## To Do:
 
-- Get the CSS working properly
+- ~~Get the CSS working properly~~ **CAVEAT** This was done by bringing in `dist/` -- needs to be more tightly incorporated?
 - Remove components we're not using on Vets
   - Serif font
   - labels
