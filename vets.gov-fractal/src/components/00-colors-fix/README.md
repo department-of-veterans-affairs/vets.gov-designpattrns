@@ -1,1 +1,0 @@
-This is a notes file. Here we can add information about any given component. For colors, it might be when we do and don't use particular colors in the palette. 
