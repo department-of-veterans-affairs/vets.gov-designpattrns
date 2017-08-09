@@ -51,11 +51,13 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
   - Modals
   - Address blocks
   
-  Open questions:
+  
+  **Open questions:**
   
   - Multi-select accordion? Do we use this anywhere?
     
-  Fractal only:
+  
+  **Fractal only:**
   
   - Add a 'deprecated' label for certain components
   
