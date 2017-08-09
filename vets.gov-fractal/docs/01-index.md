@@ -21,7 +21,6 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
 - Incorporate documentation for Foundation grid
 
 - Match styles:
-  - Color palette 
   - Tables
   - Buttons
   - Fonts
@@ -36,6 +35,7 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
   
   
 - Add components that we _are_ using on Vets that are not on USWDS (what are these?)
+  - Color palette 
   - Forms
   - Subway map
   - Logos
@@ -50,6 +50,8 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
   - Log in landing page (prompt to ID.me)
   - Modals
   - Address blocks
+  - Progress bars
+  
   
   
   **Open questions:**
