@@ -6,6 +6,7 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
 
 ## To Do:
 
+- incorporate Vets CSS
 - ~~Get the CSS working properly~~ **CAVEAT** This was done by bringing in `dist/` -- needs to be more tightly incorporated?
 - Remove components we're not using on Vets
   - Serif font
@@ -22,7 +23,7 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
 
 - Match styles:
   - Tables
-  - Buttons
+  - Buttons (labeling)
   - Fonts
   - Alerts
   - Accordions
@@ -51,7 +52,8 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
   - Modals
   - Address blocks
   - Progress bars
-  
+  - Alert/accordion hybrid (see Prescription Refills)
+  - Data visualizations
   
   
   **Open questions:**
