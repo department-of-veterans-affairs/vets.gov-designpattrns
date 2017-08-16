@@ -54,6 +54,7 @@ Currently, this is USWDS' Fractal system with an overlay of Vets. It's very much
   - Data visualizations
   - Add Source Sans Pro Bold
   - Responsive table
+  - Expandable alert box (https://www.vets.gov/health-care/health-conditions/mental-health/)
 
   **Open questions:**
 
